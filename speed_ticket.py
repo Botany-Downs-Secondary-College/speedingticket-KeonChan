@@ -19,7 +19,7 @@ def printSummary():
     
     name = input("What is your name?")
     if name in wantedList:
-        print(name.upper(),",You are now under arrested!")
+        print(name.upper(),",You are now under arrest!")
     else:
         repeat = True
         while repeat == True:
